@@ -169,12 +169,12 @@ jiangge
 关键字：Speech to Tex
 ```
 
-主要流程：注册相关语音识别SDK，将语音转换为文字命令， 使用模拟浏览器操作工具例如webbrowser、 selenium等执行即可实现，其主要学习点在于使用模拟浏览器操作工具部分，因此可以参考以下代码/工具。
+主要流程：注册相关语音识别SDK，将语音转换为文字命令， 使用模拟浏览器操作工具例如webbrowser、 selenium等执行即可实现，其主要学习点在于使用模拟浏览器操作部分，因此可以参考以下代码/工具。
 
-第0025题参考代码：使用robotframework自动化测试软件说明
+第0025题参考工具：使用robotframework自动化测试软件说明
 
 个人公众号链接：https://mp.weixin.qq.com/s/xsOSGr0sWOeRD3Eb9TsCsA
 
-第0025题参考工具：使用selenium分析网易云音乐评论
+第0025题参考代码：使用selenium分析网易云音乐评论
 
 个人Github Repositories链接：https://github.com/jm199504/Selenium-WordCloud 
