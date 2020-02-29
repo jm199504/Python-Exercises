@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TodoList App</title>
+</head>
+<body>
+    <h1>Todo List</h1>
+    <h2>添加新的任务</h2>
+        <form action="{{ url_for('add') }}" method="post">
+            <input type="text" name="todoitem">
+            <input type="submit" value="添加任务">
+        </form>
+
+    <h2>待完成任务</h2>
+        <ul>
+        {% for todo in incomplete %}
+            <li style="font-size:12pt;color:gray"><input name='{{ todo.id }}' type="hidden">{{ todo.text }}
+                <a href="{{ url_for('complete',id=todo.id) }}" style="font-size:10pt">标记已完成</a>
+            </li>
+        {% endfor %}
+        </ul>
+    <h2>已完成任务</h2>
+    <ul>
+        {% for todo in complete %}
+            <li style="font-size:12pt;color:green;"><input name='{{ todo.id }}' type="hidden">{{ todo.text }}
+                <a href="{{ url_for('incomplete',id=todo.id) }}" style="font-size:10pt">标记未完成</a>
+            </li>
+        {% endfor %}
+        </ul>
+
+</body>
+</html>
