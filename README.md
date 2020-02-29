@@ -14,7 +14,7 @@
 
 **第 0001 题：** 做为 Apple Store App 独立开发者，你要搞限时促销，为你的应用**生成激活码**（或者优惠券），使用 Python 如何生成 200 个激活码（或者优惠券）？
 
-<img src="/images/readme2.jpg" width="50%">
+<img src="/images/readme2.jpg" width="30%">
 
 **第 0002 题:** 将 0001 题生成的 200 个激活码（或者优惠券）保存到 **MySQL** 关系型数据库中。
 
@@ -165,7 +165,7 @@ jiangge
 
 **第 0024 题：** 使用 Python 的 Web 框架，做一个 Web 版本 TodoList 应用。
 
-<img src="/images/readme3.jpg" width="50%">
+<img src="/images/readme3.jpg" width="30%">
 
 **第 0025 题：** 使用 Python 实现：对着电脑吼一声,自动打开浏览器中的默认网站。
 
