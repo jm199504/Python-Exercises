@@ -19,7 +19,7 @@ for i in range(200):
 # 第0003题
 import redis
 
-# 打开数据库连接
+# 打开Redis数据库连接
 pool= redis.ConnectionPool(host='localhost',port=6379,decode_responses=True)
 r=redis.Redis(connection_pool=pool)
 

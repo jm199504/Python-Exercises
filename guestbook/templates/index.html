@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GuestBook App</title>
+</head>
+<body>
+    <h1>留言簿</h1>
+    <h2>请输入姓名及留言内容</h2>
+        <form action="{{ url_for('add') }}" method="post">
+            <p>姓名：<input type="text" name="username"></p>
+            <p>内容：<input type="text" name="content"></p>
+            <p><input type="submit" value="提交留言"></p>
+        </form>
+    <h2>留言历史信息</h2>
+
+        {% for contents in contentlist %}
+            <div style="font-size:12pt;color:gray">
+                <p>姓名：{{ contents.username }}</p>
+                <p>留言时间：{{ contents.timetext }}</p>
+                <p>内容：{{ contents.content }}</p>
+            </div>
+            <HR align=left width=300 color=black SIZE=1>
+        {% endfor %}
+
+</body>
+</html>

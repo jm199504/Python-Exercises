@@ -2,7 +2,7 @@
 
 参考题目来源： https://github.com/Yixiaohan/show-me-the-code 
 
-说明：本篇代码参考对小部分题目解答有所改动，仅供参考答题思路，所有代码均已运行成功，其中0023还未完，后续完善，若细节交流或指正错误添加个人微信(jm199504)！
+说明：本篇代码参考对小部分题目解答有所改动，仅供参考答题思路，所有代码均已运行成功，细节交流或指正错误可添加个人微信(jm199504)！
 
 
 
@@ -161,9 +161,15 @@ jiangge
 
 **第 0022 题：** iPhone 6、iPhone 6 Plus 早已上市开卖。请查看你写得 第 0005 题的代码是否可以复用。
 
-**第 0023 题（未完成）：** 使用 Python 的 Web 框架，做一个 Web 版本 留言簿 应用。
+**第 0023 题：** 使用 Python 的 Web 框架，做一个 Web 版本 留言簿 应用。
+
+参考代码：/guestsbook
+
+<img src="/images/readme4.png" width="30%">
 
 **第 0024 题：** 使用 Python 的 Web 框架，做一个 Web 版本 TodoList 应用。
+
+参考代码：/todolist
 
 <img src="/images/readme3.jpg" width="30%">
 
