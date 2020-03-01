@@ -14,12 +14,12 @@ def getCommonWord(filepath):
         words.extend(fandp)
         line = f.readline()
     f.close()
-    # print(dict(Counter(words)))
+    print(dict(Counter(words)))
     return max(dict(Counter(words)), key=dict(Counter(words)).get)
 
-files = os.listdir('files')
+files = os.listdir('0006')
 commonwords = dict()
 for file in files:
-    commonwords[file] = getCommonWord("files\\"+file)
+    commonwords[file] = getCommonWord("0006\\"+file)
 
 print(commonwords)
