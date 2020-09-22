@@ -1,5 +1,7 @@
 # Python练习册（每天一个小程序）
 
+https://img.shields.io/badge/{author}-{jm199504}-{blue}.svg
+
 参考题目来源： https://github.com/Yixiaohan/show-me-the-code 
 
 说明：本篇代码参考对小部分题目解答有所改动，仅供参考答题思路，所有代码均已运行成功，细节交流或指正错误可添加个人微信(jm199504)！
