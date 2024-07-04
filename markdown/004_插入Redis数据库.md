@@ -80,7 +80,7 @@ for i, value in zip(keys, values):
 
 ### 结果预览
 
-```bash
+```
 Key: 1, Value: c5lB7jgGLHy6Yio3WAFI
 Key: 2, Value: Mow6lPcgj153YCK72mxd
 Key: 3, Value: h1s64vpgoNzrZBVf5bOH

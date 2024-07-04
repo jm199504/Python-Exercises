@@ -87,4 +87,3 @@ soup = BS(html_doc, 'lxml')
 print soup.get_text()</body></html>>
 ```
 
--
