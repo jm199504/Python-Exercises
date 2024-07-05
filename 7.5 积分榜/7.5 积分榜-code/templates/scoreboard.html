@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scoreboard</title>
+    <style>
+        body {
+            background-color: #F0F0F0;
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        #scoreboard {
+            margin: 20px auto;
+            max-width: 600px;
+            background-color: white;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        #scoreboard table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        #scoreboard th, #scoreboard td {
+            padding: 10px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        #scoreboard th {
+            background-color: #333;
+            color: white;
+        }
+
+        #scoreboard tr.champion td {
+            background-color: #FFD700;
+        }
+
+        .input-field {
+            margin-bottom: 10px;
+        }
+
+        .reset-button {
+            background-color: #CD9B1D;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-left: 40%;
+        }
+
+        .submit-button {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            margin-left: 40%;
+        }
+
+        .reset-button:hover, .submit-button:hover {
+            background-color: #555;
+        }
+    </style>
+</head>
+<body>
+    <div id="header">
+        <h1>积分榜</h1>
+    </div>
+
+    <div id="scoreboard">
+        <form action="/" method="POST">
+            <table>
+                <tr>
+                    <th>玩家名称</th>
+                    {% for player in players %}
+                        <th> {{ player }} </th>
+                    {% endfor %}
+
+                </tr>
+                {% for turn in turns %}
+                <tr>
+                     <td>第{{ turn.round }}轮</td>
+                     <td>{{ turn.first }}</td>
+                     <td>{{ turn.second }}</td>
+                     <td>{{ turn.third }}</td>
+                     <td>{{ turn.fourth }}</td>
+                </tr>
+                {% endfor %}
+
+                <tr>
+                    <td>总计</td>
+                    <td> {{ sums[0] }} </td>
+                    <td> {{ sums[1] }} </td>
+                    <td> {{ sums[2] }} </td>
+                    <td> {{ sums[3] }} </td>
+                </tr>
+
+            </table>
+
+            <hr>
+
+            <div class="input-field">
+                <label for="player1">玩家一:</label>
+                <input type="number" id="player1" name="1" required>
+            </div>
+
+            <div class="input-field">
+                <label for="player2">玩家二:</label>
+                <input type="number" id="player2" name="2" required>
+            </div>
+
+            <div class="input-field">
+                <label for="player3">玩家三:</label>
+                <input type="number" id="player3" name="3" required>
+            </div>
+
+            <div class="input-field">
+                <label for="player4">玩家四:</label>
+                <input type="number" id="player4" name="4" required>
+            </div>
+
+            <button class="submit-button" type="submit">记录本次</button>
+        </form>
+        <hr>
+        <form action="/reset" method="POST">
+            <button class="reset-button" type="submit">重置积分</button>
+        </form>
+    </div>
+</body>
+</html>
