@@ -12,7 +12,7 @@
 
 【来源】：Github、牛客网、知乎、日常coding
 
-【更新】：不定期更新，欢迎私信投稿交流：`517767906@qq.com`
+【更新】：不定期更新，欢迎投稿/共建/交流：`junming_guo@foxmail.com`
 
 【知乎】：[Python练习册专栏链接](https://www.zhihu.com/column/c_1706758542932103168)
 
