@@ -1,4 +1,8 @@
-# Python 练习册（基础操作/数据库/数据统计处理/图文生成/数据转换/算法题/笔试题/小应用/程序开发）
+## Python 练习册（基础操作/数据库/数据统计处理/图文生成/数据转换/算法题/笔试题/小应用/程序开发）
+
+![author](https://img.shields.io/static/v1?label=Author&message=junmingguo&color=green)
+![language](https://img.shields.io/static/v1?label=Language&message=python3&color=orange) ![topics](https://img.shields.io/static/v1?label=Topics&message=python&color=blue)
+
 
 【题目描述/题解】：`/markdown`
 
@@ -38,11 +42,15 @@
 
 #### 2.1 插入MySQL数据库
 
-​	将生成促随机码题目生成的 200 个激活码（或者优惠券）保存到 MySQL 关系型数据库中。
+- 将生成促随机码题目生成的 200 个激活码（或者优惠券）保存到 MySQL 关系型数据库中。
 
 #### 2.2 插入Redis数据库
 
-​	将生成随机码题目生成的 200 个激活码（或者优惠券）保存到 Redis 非关系型数据库中。
+- 将生成随机码题目生成的 200 个激活码（或者优惠券）保存到 Redis 非关系型数据库中。
+
+#### 2.3 MongoDB数据库基本交互
+
+- 数据库链接、向集合插入数据、查询数据、删除指定数据、查询数据
 
 
 
