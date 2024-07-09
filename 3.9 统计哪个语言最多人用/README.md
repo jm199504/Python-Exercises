@@ -47,4 +47,3 @@ for language, count in language_counts_sorted.items():
     print(f"编程语言 {language} 的使用人数为 {count} 人。")
 ```
 
--
