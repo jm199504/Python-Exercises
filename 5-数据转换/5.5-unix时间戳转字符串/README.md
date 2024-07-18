@@ -2,7 +2,7 @@
 
 ## 问题描述
 
-目前有很多在线Unix时间戳(timestamp)转换工具，如何用Python实现这一功能
+目前有很多在线Unix时间戳(timestamp)转换工具，如何用Python实现这一功能。
 
 ### 输入示例
 
