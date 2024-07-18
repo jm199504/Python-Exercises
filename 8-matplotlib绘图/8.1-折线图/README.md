@@ -88,4 +88,4 @@ plt.show()
 
 ### 示例输出
 
-<img src="https://github.com/jm199504/Financial-Knowledge-Graphs/blob/master/images/cn.png?raw=true" style="zoom:33%;" />
+<img src="https://github.com/jm199504/Python-Exercises/blob/master/8-matplotlib%E7%BB%98%E5%9B%BE/8.1-%E6%8A%98%E7%BA%BF%E5%9B%BE/Figure_1.png?raw=true" style="zoom:80%;" />
