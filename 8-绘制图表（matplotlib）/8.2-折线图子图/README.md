@@ -19,7 +19,7 @@ y2 = np.cos(x)
 
 ### 示例输出
 
-<img src="https://github.com/jm199504/Python-Exercises/blob/master/8-matplotlib%E7%BB%98%E5%9B%BE/8.2-%E6%8A%98%E7%BA%BF%E5%9B%BE%E5%AD%90%E5%9B%BE/Figure_1.png?raw=true" style="zoom:80%;" />
+<img src="https://github.com/jm199504/Python-Exercises/blob/master/8-%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8%EF%BC%88matplotlib%EF%BC%89/8.2-%E6%8A%98%E7%BA%BF%E5%9B%BE%E5%AD%90%E5%9B%BE/Figure_1.png?raw=true" style="zoom:80%;" />
 
 ### 示例代码
 
