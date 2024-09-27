@@ -1,10 +1,10 @@
-# 3.4 统计HTML各类内容
+# 3.4-统计HTML各类内容
 
 ### 问题描述
 
 一个HTML文件，找出里面的标题、内容、链接、正文内容
 
-### 解答示例代码
+### 示例代码
 
 ```bash
 from bs4 import BeautifulSoup

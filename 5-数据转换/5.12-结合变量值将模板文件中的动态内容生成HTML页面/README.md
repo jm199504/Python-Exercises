@@ -1,4 +1,4 @@
-# 5.12 结合变量值将模板文件中的动态内容生成HTML页面
+## 5.12-结合变量值将模板文件中的动态内容生成HTML页面
 
 ### 问题描述
 
@@ -48,9 +48,7 @@ items = ["Item 1", "Item 2", "Item 3 MaxNum"]
 
 ```
 
-
-
-### 解答示例代码
+### 示例代码
 
 ```python
 from mako.template import Template

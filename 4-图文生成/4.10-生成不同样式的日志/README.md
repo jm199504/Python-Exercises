@@ -1,9 +1,9 @@
-## 4.10 生成不同样式的日志
+## 4.10-生成不同样式的日志
 
 ### 问题描述
 针对debug/info/warning/error等不同级别的日志，采用不同的样式显示。
 
-### Python示例代码
+### 示例代码
 ```python
 from loguru import logger
 

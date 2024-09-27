@@ -1,4 +1,4 @@
-# 5.1 文本转表格
+# 5.1-文本转表格
 
 ### 问题描述
 
@@ -14,9 +14,9 @@
 
 请将上述内容写到 student.xls 文件中。
 
-### 解答示例代码
+### 示例代码
 
-需要安装第三方库：`pip3 install xlwt`
+安装第三方库：`pip3 install xlwt`
 
 ```python
 import xlwt

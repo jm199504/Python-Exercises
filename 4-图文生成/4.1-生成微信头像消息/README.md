@@ -1,4 +1,4 @@
-# 4.1 生成微信头像消息
+# 4.1-生成微信头像消息
 
 ### 问题描述
 
@@ -18,7 +18,7 @@
 
 4、保存填充后的图片至本地
 
-### 解答示例代码
+### 示例代码
 
 ```python
 from PIL import Image, ImageDraw, ImageFont

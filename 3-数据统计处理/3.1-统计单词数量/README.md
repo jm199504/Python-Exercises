@@ -1,4 +1,4 @@
-# 3.1 统计单词数量
+# 3.1-统计单词数量
 
 ### 问题描述
 
@@ -16,7 +16,7 @@ You can use this file to count the occurrences of each word.
 Have a nice day!
 ```
 
-### 解答示例代码
+### 示例代码
 
 ```bash
 import re

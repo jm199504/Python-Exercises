@@ -1,10 +1,10 @@
-# 3.2 最重要的词
+# 3.2-最重要的词
 
 ### 问题描述
 
 有一个日记目录（ txt格式），为避免分词的问题，假设内容都是英文，统计出每篇日记最重要的词。
 
-### 示例文本（1）
+### 示例文本1
 
 ```bash
 this is a test file for counting words and numbers in text.
@@ -14,7 +14,7 @@ testing...
 done
 ```
 
-### 示例文本（2）
+### 示例文本2
 
 ```bash
 title is the prediction of stock trend
@@ -24,7 +24,7 @@ predicting
 done
 ```
 
-### 解答示例代码
+### 示例代码
 
 ```bash
 import re   # 导入正则表达式模块

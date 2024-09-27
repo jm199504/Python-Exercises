@@ -16,7 +16,7 @@ Hello~
 
 ![img](https://pic4.zhimg.com/80/v2-4ba06b42bbfd8db9d128d7c627d5519b_720w.webp)
 
-### Python示例代码（将自定义图片放置二维码中间）
+### 示例代码（将自定义图片放置二维码中间）
 
 ```python
 import qrcode
@@ -86,9 +86,7 @@ img.save(out_image)
 
 4.border：控制边框（二维码与图片边界的距离）包含的格子数（默认为4，是相关标准规定的最小值）
 
-### 将自定义图片作为二维码背景
-
-### Python示例代码（将自定义图片作为二维码背景）
+### 示例代码（将自定义图片作为二维码背景）
 
 ```python
 import os

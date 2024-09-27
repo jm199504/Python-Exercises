@@ -1,10 +1,10 @@
-## 5.4 JSON转字典 & 字典转JSON
+## 5.4-JSON转字典 & 字典转JSON
 
-## 问题描述
+### 问题描述
 
 将dict对象和string对象互转；将dict对象存储到JSON文件，从JSON文件读取dict数据
 
-### Python示例代码
+### 示例代码
 
 有一份dict变量，通过`print()`输出，但是呈现的不够层次清晰
 
@@ -44,21 +44,21 @@ print(type(data2))
 # <class 'dict'>
 ```
 
-将dict对象存储为JSON文件
+### 将dict对象存储为JSON文件
 
 ```python
 with open('data.json', 'w') as f:
     json.dump(data, f)
 ```
 
-从JSON文件读取数据
+### 从JSON文件读取数据
 
 ```python
 with open('data.json', 'r') as f:
     data3 = json.load(f)
 ```
 
-总结一下
+### 总结
 
 （1）`dict对象` —`json.dumps()`—>`string对象`
 

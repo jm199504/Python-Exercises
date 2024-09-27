@@ -1,4 +1,4 @@
-# 2.1 插入MySQL数据库
+## 2.1-插入MySQL数据库
 
 ### 问题描述
 
@@ -10,7 +10,7 @@
 
 2、使用`pymysql`插入数据
 
-### **使用 Docker 安装 MySQL**
+### 使用 Docker 安装 MySQL
 
 （1）确保已经安装 Docker 客户端和服务器。
 
@@ -79,7 +79,7 @@ CREATE TABLE couponList (
 );
 ```
 
-### 解答示例代码
+### 示例代码
 
 ```bash
 import random
@@ -142,7 +142,7 @@ mysql> select * from couponList;
 
 ---
 
-### 可能存在问题
+### 可能问题
 
 【问题】出现“RuntimeError: 'cryptography' package is required for sha256_password or caching_sha2_password auth methods”问题
 

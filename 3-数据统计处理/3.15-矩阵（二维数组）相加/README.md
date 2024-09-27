@@ -1,4 +1,4 @@
-## 3.15 矩阵（二维数组）相加
+## 3.15-矩阵（二维数组）相加
 
 ### 问题描述
 
@@ -25,7 +25,7 @@ matrix_B = [
  [14 16 18]]
 ```
 
-### Python示例代码（使用+）
+### 示例代码（使用+）
 
 ```python
 # 相加的两个矩阵
@@ -57,7 +57,7 @@ for row in result:
     print(row)
 ```
 
-### Python示例代码（使用`numpy`）
+### 示例代码（使用`numpy`）
 
 使用`pip`安装`numpy`：`pip install numpy`
 

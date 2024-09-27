@@ -1,4 +1,4 @@
-# 3.5 敏感词识别
+# 3.5-敏感词识别
 
 ### 问题描述
 
@@ -16,7 +16,7 @@ love
 sex
 ```
 
-### 解答示例代码
+### 示例代码
 
 ```python
 def check_word_in_file(file_path):

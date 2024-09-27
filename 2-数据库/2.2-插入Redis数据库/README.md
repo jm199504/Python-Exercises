@@ -1,4 +1,4 @@
-# 2.2 插入Redis数据库
+## 2.2-插入Redis数据库
 
 ### 问题描述
 
@@ -32,7 +32,7 @@ docker run --name my-redis -d redis
 docker exec -it my-redis redis-cli
 ```
 
-### 解答示例代码
+### 示例代码
 
 ```bash
 import random
@@ -61,7 +61,7 @@ for i in nos:
     print(r.get(str(i)))
 ```
 
-### 从 Redis 获取Key 1-10
+#### 从 Redis 获取Key 1-10
 
 ```bash
 import redis
@@ -78,7 +78,7 @@ for i, value in zip(keys, values):
     print(f"Key: {i}, Value: {value}")
 ```
 
-### 结果预览
+#### 结果预览
 
 ```
 Key: 1, Value: c5lB7jgGLHy6Yio3WAFI

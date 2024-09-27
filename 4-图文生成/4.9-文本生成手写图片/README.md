@@ -1,9 +1,9 @@
-## 4.9 生成手写文本
+## 4.9-生成手写文本
 
 ### 问题描述
 将文本转为手写体的图片
 
-### Python示例代码
+### 示例代码
 ```python
 # coding: utf-8
 from PIL import Image, ImageFont
