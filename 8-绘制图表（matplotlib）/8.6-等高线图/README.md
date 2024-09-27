@@ -1,4 +1,4 @@
-# 8.6 等高线图
+# 8.6-等高线图
 
 ### 问题描述
 
@@ -8,7 +8,7 @@
 
 ### 示例输出
 
-<img src="?raw=true" style="zoom:80%;" />
+<img src="https://github.com/jm199504/Python-Exercises/blob/master/8-%E7%BB%98%E5%88%B6%E5%9B%BE%E8%A1%A8%EF%BC%88matplotlib%EF%BC%89/8.6-%E7%AD%89%E9%AB%98%E7%BA%BF%E5%9B%BE/Figure_1.jpg?raw=true" style="zoom:80%;" />
 
 ### 示例代码
 
